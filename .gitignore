@@ -1,0 +1,16 @@
+node_modules/
+out/
+dist/
+.DS_Store
+.env
+.env.*
+
+# 生成した動画・画像・音は重いので git に入れない（置き場は docs/06 制作の流れ.md で決める）
+footage/
+*.mp4
+*.mov
+*.webm
+*.wav
+
+# Obsidian の個人設定
+docs/.obsidian/
